@@ -4,6 +4,7 @@ import expect from 'expect';
 import Adapter from 'enzyme-adapter-react-16';
 import App from '../../client/src/components/App';
 import ReviewSnapShot from '../../client/src/components/ReviewSnapShot';
+import StarRater from '../../client/src/components/StarRater';
 
 Enzyme.configure({ adapter: new Adapter() });
 
@@ -17,6 +18,7 @@ describe('App Component', () => {
     expect(wrapper.length).toEqual(1);
   });
 });
+
 describe('Review Snap Shot', () => {
   it('Contains Review Snap Shot Class', () => {
     const wrapper = shallow(<ReviewSnapShot />);
