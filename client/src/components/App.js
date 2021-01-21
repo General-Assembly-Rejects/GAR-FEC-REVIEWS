@@ -1,6 +1,7 @@
 import React from 'react';
 import ReviewList from './List.jsx';
 import ReviewSnapShot from './ReviewSnapShot.jsx'
+import StarRater from './StarRater.jsx';
 
 class App extends React.Component {
   constructor(props) {
