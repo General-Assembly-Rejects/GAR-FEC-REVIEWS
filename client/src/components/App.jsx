@@ -1,6 +1,7 @@
 import React from 'react';
-import ReviewList from './List.jsx';
-import ReviewSnapShot from './ReviewSnapShot.jsx'
+import ReviewList from './List';
+import ReviewSnapShot from './ReviewSnapShot';
+import FormModal from './FormModal';
 
 class App extends React.Component {
   constructor(props) {

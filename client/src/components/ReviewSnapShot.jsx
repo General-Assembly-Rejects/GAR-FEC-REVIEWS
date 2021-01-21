@@ -1,4 +1,6 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
+import FormModal from './FormModal.jsx';
 import ReviewCounts from './ReviewCounts.jsx';
 import StarRating from './StarRating.jsx';
 
@@ -7,7 +9,7 @@ function ReviewSnapShot() {
     <div className="ReviewSnapShot">
       <div className="actionBox">
         <h2>Reviews</h2>
-        <button className="button button1" type="submit">Write a Review</button>
+        <FormModal />
       </div>
       <div>
         <ReviewCounts />
