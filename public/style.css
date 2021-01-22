@@ -40,6 +40,10 @@
     font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.closeModal {
+    float: right;
+}
+
 h2 {
     line-height: 32px;
     height: 32px;
@@ -53,3 +57,101 @@ h2 {
     font-size: 22;
     font-family: "Roboto","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
+
+.formSideBar {
+  height: 100%;
+  width: 225px;
+  position: fixed;
+  background-color: gray;
+  margin-left: 0px;
+  top: 0px;
+  left: 0px;
+}
+
+.formContainer {
+    width: 675px;
+    float: right;
+    margin-left: 0px;
+    right: 0px;
+}
+
+.productOverviewDiv {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 12px;
+}
+
+.productRatingDiv {
+    height: 107px;
+    border-bottom-color: rgb(221, 221, 221);
+    border-bottom-width: 1px;
+    border-top-color: rgb(221, 221, 221);
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+}
+
+.productRatingSpan {
+    height: 86px;
+}
+.reviewTitleContainer {
+    background-attachment: scroll;
+    height: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-color: rgb(221, 221, 221);
+    border-bottom-color: rgb(221, 221, 221);
+    border-bottom-style: solid;
+}
+.reviewTitleDiv {
+    background-attachment: scroll;
+    height: 79px;
+    line-height: 19.2px;
+    padding-right: 20px;
+    padding-left: 20px; 
+}
+
+.reviewTitleForm {
+    font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 24px;
+    font-weight: 700;
+    font-size: 16px;
+    float: left;
+}
+
+.reviewTitleInput {
+    width: 635px;
+    background-origin: padding-box;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(221, 221, 221);
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(221, 221, 221);
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: rgb(221, 221, 221);
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: rgb(221, 221, 221);
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7.5;
+    padding-bottom: 7.5;
+    text-decoration-color: rgb(102, 102, 102);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 19.2px;
+    height: 37px;
+    font-weight: 400;
+    float: left;
+    font-size: 16px;
+    font-family: "Arial", "Helvetica", "sans-serif";
+}
+

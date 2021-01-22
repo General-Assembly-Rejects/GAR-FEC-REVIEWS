@@ -8,8 +8,9 @@ const customStyles = {
     left: '50%',
     right: 'auto',
     bottom: 'auto',
-    marginRight: '-50%',
     transform: 'translate(-50%, -50%)',
+    padding: '0px',
+    width: '900px',
   },
 };
 
@@ -33,16 +34,20 @@ function FormModal() {
         style={customStyles}
         contentLabel="Example Modal"
       >
-        <h2>Hello</h2>
-        <button type="submit" onClick={closeModal}>close</button>
-        <div>I am a modal</div>
-        <form>
-          <input />
-          <button type="submit">tab navigation</button>
-          <button type="submit">stays</button>
-          <button type="submit">inside</button>
-          <button type="submit">the modal</button>
-        </form>
+        <div className="formSideBar" />
+        <div className="formContainer">
+          <button className="closeModal" type="submit" onClick={closeModal}>close</button>
+          <h1 className="productOverviewDiv"><span>Title</span></h1>
+          <div className="productRatingDiv">
+            <span className="productRatingSpan">Product Rating</span>
+          </div>
+          <div className="reviewTitleContainer">
+            <div className="reviewTitleDiv">
+              <span className="reviewTitleForm">Review Title*</span>
+              <input className="reviewTitleInput" placeholder="Example: Great on the Trails" />
+            </div>
+          </div>
+        </div>
       </Modal>
     </div>
   );
