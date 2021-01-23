@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/control-has-associated-label */
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Modal from 'react-modal';
@@ -38,7 +39,7 @@ function FormModal() {
       >
         <div className="formSideBar" />
         <div className="formContainer">
-          <button className="closeModal" type="submit" onClick={closeModal}>close</button>
+          <button className="closeModal" type="submit" onClick={closeModal} />
           <div className="productOverviewDiv"><span className="productOverviewTitle">My Review for REI Co-op Wool Stripe Beanie</span></div>
           <p className="requiredFieldsText">Required fields are marked with *</p>
           <div className="productRatingDiv">
