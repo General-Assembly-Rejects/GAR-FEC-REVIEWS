@@ -48,7 +48,6 @@ app.post('/api/reviews', (req, res) => {
     } else {
       res.status(201);
       res.send(data);
-      console.log('posted');
     }
   });
 });

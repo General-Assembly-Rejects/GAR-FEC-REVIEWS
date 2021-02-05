@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Modal from 'react-modal';
 import { FaStar } from 'react-icons/fa';
 
@@ -174,7 +174,7 @@ function FormModal(props) {
           </div>
           <div className="submitContainer">
             <div className="submitDiv">
-              <button className="submitBtn" type="button" onClick={() => { handleSubmit(); closeModal(); }}>Post Review</button>
+              <button className="submitBtn" type="button" onKeyPress={() => { handleKeyPress(); closeModal(); }} onClick={() => { handleSubmit(); closeModal(); }}>Post Review</button>
             </div>
           </div>
         </div>
