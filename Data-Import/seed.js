@@ -3,7 +3,7 @@
 const faker = require('faker');
 const { MongoClient } = require('mongodb');
 
-const url = 'mongodb://mongo:27017';
+const url = 'mongodb://localhost:27017';
 
 const dbName = 'products';
 
@@ -17,7 +17,7 @@ MongoClient.connect(url, (err, client) => {
 
   const reviews = [];
 
-  for (let i = 0; i < 5; i++) {
+  for (let i = 0; i < 4; i++) {
     const review = {
       userName: faker.internet.userName(),
       rating: Math.floor(Math.random() * 4) + 1,

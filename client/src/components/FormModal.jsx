@@ -96,6 +96,7 @@ function FormModal(props) {
         <div className="formSideBar">
           <div className="imageDiv">
              <img src="https://www.rei.com/media/8d141ee9-a7be-40b3-b5b5-c629af3903d0" width="161px" height="118"/>
+             <button className="submitBtn" type="button" onKeyPress={() => { handleKeyPress(); closeModal(); }} onClick={() => { handleSubmit(); closeModal(); }}>Post Review</button>
           </div>
         </div>
         <div className="formContainer">
